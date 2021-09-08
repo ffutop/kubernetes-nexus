@@ -26,6 +26,9 @@ spec:
             requests:
               cpu: 250m
               memory: 3000Mi
+            limits:
+              cpu: 4
+              memory: 3000Mi
           ports:
             - containerPort: 8081
               name: nexus-http
